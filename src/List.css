@@ -1,0 +1,31 @@
+.list{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    min-height: 2.5rem;
+    width: auto;
+    background-color: rgb(229, 228, 228);
+    margin: 10px 0px;
+    padding-left: 10px;
+    border-radius: 3px;
+}
+.list:hover{
+    background-color: rgb(198, 198, 198);
+}
+.trash{
+    background-color: rgb(244, 67, 67);
+    border-radius: 3px;
+    padding: 0.75rem 0.8rem;
+    cursor: pointer;
+    color: beige;
+    position: relative;
+    right: 0;
+
+}
+.txt{
+    font-size: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(62, 62, 62);
+    /* padding-right: 10px ; */
+    word-break: break-all;
+}
